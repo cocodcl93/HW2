@@ -1,0 +1,41 @@
+/* Color scheme */
+/* Blue-green background color: #507BBA  */
+/* Blue font & menu color: #036  */
+/* Yellow header color: #F3DB67  */
+/* Orange text area: #FF7600 */
+
+
+body {
+	background-color:#507BBA;
+	
+}
+
+header {
+	background-color:#F3DB67;
+	margin-top:10px;
+	overflow:hidden;
+}
+	
+footer {
+	background-color:#98bf21;
+	text-align:center; 
+	font-variant:small-caps; 
+	padding-bottom:30px;
+	padding-top:30px; 
+	font-weight:bold; 
+}
+
+h1 {
+	text-align:center;
+	color:#036; 	
+	font-size: 3em; 
+	font-weight:bold; 
+	font-variant:small-caps;
+
+}
+
+p {
+	margin-top:30px; 
+	font-size:1.25em;
+} 
+		
