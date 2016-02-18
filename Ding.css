@@ -1,12 +1,12 @@
 /* Color scheme */
-/* Blue-green background color: #507BBA  */
-/* Blue font & menu color: #036  */
+/* Orange background color: E2805C */
+/* Purple font & menu color: 61499B  */
 /* Yellow header color: #F3DB67  */
-/* Orange text area: #FF7600 */
+/* Green text area: 3F9C72 */
 
 
 body {
-	background-color:#507BBA;
+	background-color:E2805C;
 	
 }
 
@@ -27,7 +27,7 @@ footer {
 
 h1 {
 	text-align:center;
-	color:#036; 	
+	color:61499B; 	
 	font-size: 3em; 
 	font-weight:bold; 
 	font-variant:small-caps;
@@ -38,4 +38,60 @@ p {
 	margin-top:30px; 
 	font-size:1.25em;
 } 
-		
+
+/* Photo formatting */
+.photos {
+	border: solid 1px black; 
+	background: white;
+	text-align:center;
+	width: 250px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}	
+
+.gallery {
+	width:250px;
+}
+
+#left{
+	width:24%;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+}
+
+#right{
+	width:24%;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+}
+
+#middle {
+	width:47%;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+}
+
+/* Formatting for the menu bar */
+#menubar { 
+	background-color: 61499B; 
+	width:100%;
+	overflow:hidden;
+	}
+	
+#navlist li { 
+	display:block; 
+	float:left; 
+	font-weight:bold; 
+	text-align:center; 
+	font-variant:small-caps;
+	padding:10px; 
+}
+
+#navlist a { padding: 10px 10px; }
+
+	
+
